@@ -10,7 +10,7 @@ match operacion:
     case '+':
         # Operación suma:
         suma = numero1 + numero2
-        print("La suma es " + str(suma))
+        print("La suma es " + str (suma))
     case '-':
         # Operación resta:
         resta = numero1 - numero2
@@ -25,11 +25,11 @@ match operacion:
         print("La división es " + str(division))
     case '%':
         # Operación modulo
-        modulo= numero1 % numero2
+        modulo = numero1 % numero2
         print("El modulo es " + str(modulo))
     case '**':
         # Operación potenciacion
-        potencia= numero1 ** numero2
+        potencia = numero1 ** numero2
         print("La potenciacion es " + str(potencia))
 
     case _:
